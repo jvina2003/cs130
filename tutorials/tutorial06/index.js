@@ -121,3 +121,8 @@ const playSong = (ev) => {
     audio.play();
 }
 
+console.log("curr_idx:", curr_idx);
+let image_url = images[curr_idx];
+// curr_idx = (curr_idx + 1) % images.length
+if (curr_idx >= images.length);
+    curr_idx = 0;
